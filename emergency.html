@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Emergency Call</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="iphone">
+    <div class="island"></div>
+    <header>
+      Emergency Call
+      <button onclick="speak('This is the emergency call page')">🔊</button>
+    </header>
+    <main>
+      <h2>Emergency Options</h2>
+      <button class="danger" onclick="speak('Calling 911 now')">📞 Call 911</button><br>
+      <button onclick="speak('Calling emergency contact')">📞 Call Family</button>
+      <p><a href="index.html">⬅ Back</a></p>
+    </main>
+  </div>
+  <script src="voice.js"></script>
+</body>
+</html>
